@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-netmon-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://netmon.com/
+Netmon provides a self-hosted network monitoring appliance that offers comprehensive visibility into network performance, traffic, logs, and security events. It includes built-in alerting via email, webhooks, Slack, Microsoft Teams, and Discord, as well as a built-in MCP server for AI assistants to query devices, logs, and traffic. The solution supports Linux and Windows agents, packet capture streaming to Wireshark, and offers extensive documentation, pricing, and support resources.
+
+**Areas:** Company · Network Monitoring · Self-Hosted · AI Integration · Open Source
+
+## netmon-com on APIs.io
+
+Everything profiled for netmon-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/netmon-com/](https://apis.io/providers/netmon-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Netmon API](https://apis.io/apis/netmon-com/netmon-api/) — REST API for Netmon appliance providing monitoring, logs, alerts, and integrations.
+- [netmon-com API](https://apis.io/apis/netmon-com/netmon-com-api/) — netmon-com API as documented publicly: 39 operations. Contract generated from the documentation by API Evangelist (2026-10-30); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiAgentDownloadResponse](https://apis.io/schemas/netmon-com/netmon-com-get-api-agent-download-response/)
+- [GetApiDeviceDeviceidAlertHistoryResponse](https://apis.io/schemas/netmon-com/netmon-com-get-api-device-deviceid-alert-history-response/)
+- [GetApiNetworkactivityResponse](https://apis.io/schemas/netmon-com/netmon-com-get-api-networkactivity-response/)
+- [PostApiAlertsAlertidToggleResponse](https://apis.io/schemas/netmon-com/netmon-com-post-api-alerts-alertid-toggle-response/)
+- [PostApiAlertsLegacyLegacyidMaintenanceWindowsSyncResponse](https://apis.io/schemas/netmon-com/netmon-com-post-api-alerts-legacy-legacyid-maintenance-windows-sync-response/)
+- [PostApiDeviceSetRequest](https://apis.io/schemas/netmon-com/netmon-com-post-api-device-set-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Netmon Com Context](https://apis.io/jsonld/netmon-com/netmon-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [netmon-com API Rules](https://apis.io/rules/netmon-com/netmon-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Netmon Com Authentication](https://apis.io/security/netmon-com/netmon-com-authentication/)
+- [Netmon Com Domain Security](https://apis.io/security/netmon-com/netmon-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Netmon Com Plans Pricing](https://apis.io/plans/netmon-com/netmon-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://netmon.com/)
+- [Documentation](https://netmon.com/documentation/)
+- [Getting started](https://netmon.com/documentation/)
+- [API reference](https://netmon.com/api-reference/)
+- [Pricing](https://netmon.com/pricing/)
+- [Support](https://netmon.com/support/)
+- [Blog](https://netmon.com/)
+- [Privacy policy](https://netmon.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 46.8** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 49.5 |
+
+**Agent readiness 21.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/netmon-com/](https://apis.io/providers/netmon-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for netmon-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/netmon-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
